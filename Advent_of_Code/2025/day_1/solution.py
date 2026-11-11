@@ -1,0 +1,25 @@
+from pathlib import Path
+
+
+start=50
+
+with open(Path(__file__).with_name("input.txt")) as f:
+    data = f.read()
+
+if len(data) < 1:
+    with open(Path(__file__).with_name("test.txt")) as f:
+        data = f.read()
+
+commands=data.split()
+
+
+c=0
+for i in commands:
+    if i[0] == "L":
+        start -= int(i[1:])
+    elif i[0] == "R":
+        start += int(i[1:])
+
+    if start%100 == 0:
+        c += 1
+print(c)
