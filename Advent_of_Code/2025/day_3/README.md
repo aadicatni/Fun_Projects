@@ -8,3 +8,7 @@ order matters
 
 ### part 1
 sum of the maximum joltage from each bank
+
+### part 2
+sum of the maximum joltage from each bank but can choose upto 12 batteries
+

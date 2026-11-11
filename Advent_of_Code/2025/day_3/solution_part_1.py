@@ -9,7 +9,6 @@ if len(data) < 1:
         data = f.read()
 
 banks=data.split()
-
 max_joltages=[]
 for bank in banks:
     joltages=[int(i) for i in bank]
