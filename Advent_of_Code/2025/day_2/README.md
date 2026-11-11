@@ -9,4 +9,7 @@ is made only of some sequence of digits repeated twice
 find all of the invalid IDs that appear in the given ranges  
 
 ### part 1
-the answer is the sum of all of them  
+the answer is the sum of the invalid IDs
+
+### part 1
+IDs that are ade of some sequence of digits repeated atleast twice are also invalid
