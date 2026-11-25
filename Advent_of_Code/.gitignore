@@ -1,2 +1,3 @@
 # Ignore puzzle input text files throughout Advent_of_Code.
 input*.txt
+!day_skeleton/input*.txt

@@ -7,7 +7,7 @@ with open(Path(__file__).with_name("input.txt")) as f:
     data = f.read()
 
 if len(data) < 1:
-    with open(Path(__file__).with_name("test.txt")) as f:
+    with open(Path(__file__).with_name("example.txt")) as f:
         data = f.read()
 
 commands=data.split()
